@@ -1,0 +1,172 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-size: 10px;
+    color: #171435;
+    background-color: #F4F5FA;
+}
+
+#name-container {
+    width: 100%;
+}
+
+#name {
+    width: 713px;
+    height: 158px;
+    margin:auto;
+    margin-top: 82px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 3.2em;
+    line-height: 40px;
+    width: 579px;
+    height: 80px;
+    margin: 24px;
+    text-align: center;
+    margin: 0 auto 24px;
+    /* margin-bottom: 24px; */
+}
+
+#description {
+    width: 713px; 
+    height: 54px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 27px;
+    margin: 0;
+}
+
+#boxes_container {
+    width: 935px;
+    height: 326px;
+    /* margin-top: 56px; */
+    /* margin-right: 50%;
+    margin-left: 50%; */
+    margin: 80px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes {
+    width: 285px;
+    height: 326px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+}
+
+#box_ice {
+    margin-right: 40px;
+    box-shadow: -24px -24px #FFFBEC;
+    /* margin: auto; */
+}
+
+#box_telia {
+    margin-right: 40px;
+    box-shadow: -24px -24px #F9ECFF;
+}
+
+#box_telenor {
+    box-shadow: -24px -24px #ECEEFF;
+
+}
+
+.box-content {
+    width: 205px;
+    height: 246px;
+    padding: 40px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#image_ice {
+    width: 43.11px;
+    height: 30px;
+} 
+
+#image_telia {
+    width: 76px;
+    height: 30px;
+}
+
+#image_telenor {
+    width: 76px;
+    height: 30px;
+}
+
+.box-name {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 16px 0 0;
+    /* margin: 0; */
+}
+
+.benefits {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin: 0;
+}
+
+#benefits_telia {
+    width: 209px;
+}
+
+.price {
+    margin: 1.6em 0 4em;
+}
+
+.price-num {
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+.month {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.box-button {
+    display: inline-block;
+    border-radius: 41px;
+    background-color: #F4F5FA;
+    padding: 16px 24px;
+    border: 1px solid #F0F0F6;
+    box-shadow: 0 4px #E7E7FB;
+    font-weight: 500;
+    font-size: 16px;
+    /* text-align: center; */
+
+    /* font-weight: 500;
+    font-size: 1.6em; */
+    font-family: 'Poppins', sans-serif; 
+}
+
+#button_container {
+    text-align: center;
+}
+
+#see_all {
+    display: inline-block;
+    /* margin-top: 56px; */
+    background: #171435;
+    border-radius: 41px;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 56px;
+    padding: 16px 24px;
+    /* width: 212px;
+    height: 56px; */
+}
